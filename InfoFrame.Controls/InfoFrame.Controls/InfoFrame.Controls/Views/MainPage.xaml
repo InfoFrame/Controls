@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:InfoFrame.Controls;assembly=InfoFrame.Controls"
+             x:Class="InfoFrame.Controls.Views.MainPage">
+  <Grid Margin="12,24,12,12">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+
+    <Label Grid.Row="0" Text="Xamarin.Forms Rating Control" FontSize="Medium" FontAttributes="Bold"/>
+    
+    <local:RatingControl Grid.Row="1"/>
+  </Grid>
+</ContentPage>
